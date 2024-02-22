@@ -1,0 +1,55 @@
+Part 1: Networking and Security
+In this section we will be building out the VPC networking components as well as security groups that will add a layer of protection around our EC2 instances, Aurora databases, and Elastic Load Balancers.
+
+Learning Objectives:
+Create an isolated network with the following components:
+VPC
+Subnets
+Route Tables
+Internet Gateway
+NAT gateway
+Security Groups
+
+Part 2: Database Deployment
+This section of the workshop will walk you through deploying the database layer of the three tier architecture.
+
+Learning Objectives:
+Deploy Database Layer
+Subnet Groups
+Multi-AZ Database
+
+Part 3: App Tier Instance Deployment
+In this section of our workshop we will create an EC2 instance for our app layer and make all necessary software configurations so that the app can run. The app layer consists of a Node.js application that will run on port 4000. We will also configure our database with some data and tables.
+
+Learning Objectives:
+Create App Tier Instance
+Configure Software Stack
+Configure Database Schema
+Test DB connectivity
+
+Part 4: Internal Load Balancing and Auto Scaling
+In this section of the workshop we will create an Amazon Machine Image (AMI) of the app tier instance we just created, and use that to set up autoscaling with a load balancer in order to make this tier highly available.
+
+Learning Objectives:
+Create an AMI of our App Tier
+Create a Launch Template
+Configure Autoscaling
+Deploy Internal Load Balancer
+
+Part 5: Web Tier Instance Deployment
+In this section we will deploy an EC2 instance for the web tier and make all necessary software configurations for the NGINX web server and React.js website.
+
+Learning Objectives
+Update NGINX Configuration Files
+Create Web Tier Instance
+Configure Software Stack
+
+
+Part 6: External Load Balancer and Auto Scaling
+In this section of the workshop we will create an Amazon Machine Image (AMI) of the web tier instance we just created, and use that to set up autoscaling with an external facing load balancer in order to make this tier highly available.
+
+Learning Objectives:
+Create an AMI of our Web Tier
+Create a Launch Template
+Configure Auto Scaling
+Deploy External Load Balancer
